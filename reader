@@ -1,0 +1,44 @@
+public Reader(String *input){
+    for(int i=0; i<(&input)[1]-a; i++){
+        String current_digit = input[i];
+        
+        //ASCII table constants
+        const int ASCII_NEGATIVE = 95;
+        const int ASCII_ZERO = 48;
+        const int ASCII_NINE = 57;
+        const int ASCII_PLUS = 43;
+        const int ASCII_MINUS = 45;
+        const int ASCII_TIMES = 42;
+        const int ASCII_DIVIDE = 47;
+        const int ASCII_p = 112;
+        const int ASCII_c = 99;
+        const int ASCII_q = 113;
+
+        //option: current_digit is a negative sign
+        if(current_digit == ASCII_NEGATIVE){}
+
+        //option: current_digit is a number
+        else if((current_digit >= ASCII_ZERO) && (current_digit <= ASCII_NINE)){}
+
+        //option: current_digit is a plus sign for addition
+        else if(current_digit == ASCII_PLUS){}
+
+        //option: current_digit is a minus sign for substraction
+        else if(current_digit ==  ASCII_MINUS){}
+
+        //option: current_digit is a times sign for multiplication
+        else if(current_digit == ASCII_TIMES){}
+
+        //option: current_digit is a divide sign
+        else if(current_digit == ASCII_DIVIDE){}
+        
+        //option: current_digit is p for print
+        else if(current_digit == ASCII_p){}
+        
+        //option: current_digit is c for clear
+        else if(current_digit == ASCII_c){}
+        
+        //option: current_digit is q for quit
+        else if(current_digit == ASCII_q){}
+    }
+}
